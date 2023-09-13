@@ -1,7 +1,7 @@
 # davinstore
 
 ## Tautan Aplikasi
-TBA
+https://davinstore.adaptable.app/main/
 
 ## Tugas 02
 1. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
