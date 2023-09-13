@@ -69,7 +69,7 @@ Terakhir, aplikasi yang saya buat memiliki *domain* bernama `https://davinstore.
 
 2. Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py, models.py, dan berkas html.
 
-![bagan](https://github.com/davin42/tokodavin/assets/124948495/d2a5594a-c8dd-460a-9aee-8170ff5e1aea)
+![bagan](https://github-production-user-asset-6210df.s3.amazonaws.com/124948495/267528405-df8edcfa-abc2-4f17-8b7c-599fb4f16620.png)
 
 - Client request HTTP melalui browser dan dilanjutkan ke file `urls.py`.Selanjutnya, path akan mengarahkan ke path yang telah terdaftar di urls.py aplikasi. Kemudian,mengakses file `views.py` sesuai dengan parameter function yang tercantum pada path. Setelah itu `views.py` akan mengambil data dari `models.py` dan memberikan data tersebut kepada code `main.htmml` dan merendernya. Kemudian `main.html` akan merender hasil ke browser.
 
