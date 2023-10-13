@@ -1,19 +1,38 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Add New Product</h1>
+<style>
+    body {
+        background-color: brown;
+    }
+</style>
 
-<form method="POST">
-    {% csrf_token %}
-    <table>
-        {{ form.as_table }}
-        <tr>
-            <td></td>
-            <td>
-                <input type="submit" value="Add Product"/>
-            </td>
-        </tr>
-    </table>
-</form>
-
+<body>
+    <section class="Add add-custom" >
+        <div class="container py-5 h-100">
+          <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12 col-lg-9 col-xl-7">
+              <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                <div class="card-body p-4 p-md-5">
+                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Add New Product</h3>
+                    <form method="POST">
+                        {% csrf_token %}
+                        <table>
+                            {{ form.as_table }}
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="submit" value="Add Product"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
 {% endblock %}
